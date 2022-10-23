@@ -1,0 +1,60 @@
+
+@media only screen and (max-width: 995px) {
+    .about-edit
+{
+    margin: 0px;
+}
+}
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */ 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) and (max-width:1280px) {
+
+    .overlay span
+    {
+        padding: 50px 60px;
+    }
+    #dateOut
+    {
+        background-position-y: 0px;
+    }
+}
+@media only screen and (min-width: 875px) and (max-width:1024px) {
+    .overlay span
+    {
+        padding: 50px 50px;
+    }
+    #dateOut
+    {
+        background-position-y: 0px;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width:875px) {
+    .overlay span
+    {
+        padding: 30px 30px;
+    }
+    #dateOut
+    {
+        background-position-y: 0px;
+    }
+}
+@media only screen and  (max-width:700px) {
+    .overlay span
+    {
+        padding: 10px 10px;
+        font-size: 30px;
+    }
+    #dateOut
+    {
+        background-position-y: 0px;
+    }
+}
+
