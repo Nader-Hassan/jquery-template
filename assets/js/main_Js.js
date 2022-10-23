@@ -23,15 +23,18 @@ let countDown = setInterval(()=> {
 $('.openMenu').click(function(){
     if($('.menu').width() == 0)
     {
-        $('.menu').animate({width:'250px' },500)
-        $('.menu a , .menu i').css('display','block')
-        $('.openMenu').animate({left:'255px'},500)
+        $('.menu').animate({width:'250px' },500);
+        $('.menu a , .menu i').css('display','block');
+        $('.openMenu').animate({left:'255px'},500);
+        $('#home h1 , #home p:first').animate({marginLeft: '150px'});
+    
     }
     else
     {
-        $('.menu').animate({width:'0px' },500)
-        $('.menu a , .menu i').css('display','none')
-        $('.openMenu').animate({left:'5px'},500)
+        $('.menu').animate({width:'0px' },500);
+        $('.menu a , .menu i').css('display','none');
+        $('.openMenu').animate({left:'5px'},500);
+        $('#home h1 , #home p:first').animate({marginLeft: '0px'});
     }
 })
 $('.menu i').click(function(){
@@ -57,13 +60,13 @@ messageText.addEventListener('input',function(){
     {
         messageText.style.cssText = 'border-color : red'
         counterText.style.color = 'red'
-        $('.btn-danger').fadeOut()
+        $('.btn-danger').css({opacity :'0'})
     }
     else
     {
         messageText.style.cssText = 'border-color : #A3C3EF'
         counterText.style.color = '#9aa1a8'
-        $('.btn-danger').fadeIn()
+        $('.btn-danger').css({opacity :'1'})
     }
 })
 // =================================================================

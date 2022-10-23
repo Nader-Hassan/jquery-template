@@ -1,21 +1,50 @@
-
-@media only screen and (max-width: 995px) {
+@media only screen and  (max-width:599px) {
+    #home h1
+{
+    font-size: 30px;
+}
+    .overlay span
+    {
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+    #dateOut
+    {
+        background-position-y: 0px;
+    }
+    .about-edit
+    {
+        margin: 0px;
+    }
+ 
+}
+@media only screen and (min-width: 600px) and (max-width:875px) {
+    .overlay span
+    {
+        padding: 30px 30px;
+    }
+    #dateOut
+    {
+        background-position-y: 0px;
+    }
+}
+@media only screen and (min-width:876px) and (max-width: 995px) {
     .about-edit
 {
     margin: 0px;
 }
 }
-/* Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 600px) {...}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {...} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */ 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1024px) and (max-width:1280px) {
+@media only screen and (min-width: 996px) and (max-width:1024px) {
+    .overlay span
+    {
+        padding: 50px 50px;
+    }
+    #dateOut
+    {
+        background-position-y: 0px;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width:1280px) {
 
     .overlay span
     {
@@ -26,35 +55,461 @@
         background-position-y: 0px;
     }
 }
-@media only screen and (min-width: 875px) and (max-width:1024px) {
-    .overlay span
-    {
-        padding: 50px 50px;
-    }
-    #dateOut
-    {
-        background-position-y: 0px;
-    }
-}
-@media only screen and (min-width: 700px) and (max-width:875px) {
-    .overlay span
-    {
-        padding: 30px 30px;
-    }
-    #dateOut
-    {
-        background-position-y: 0px;
-    }
-}
-@media only screen and  (max-width:700px) {
-    .overlay span
-    {
-        padding: 10px 10px;
-        font-size: 30px;
-    }
-    #dateOut
-    {
-        background-position-y: 0px;
-    }
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 599px) {
+
+    #main
+    {
+      padding-top: 0!important;
+    }
+    .weatherIcon
+    {
+      width: 20%!important;
+    }
+    .temperature {
+      font-size: 50px!important;
+    }
+  
+    .padding-0 {
+      padding: 10px !important;
+    }
+  
+    .square,
+    .square2 {
+      width: 100% !important;
+    }
+  
+    .weather-details-caption p {
+      font-size: 15px;
+    }
+  
+    .weather-details-caption h2 {
+      font-size: 20px;
+    }
+  
+    .weather-details-caption h2 span {
+      font-size: 20px;
+    }
+  
+    #time {
+      transition: all 1s;
+      -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -ms-transition: all 1s;
+      -o-transition: all 1s;
+      position: absolute !important;
+      top: 5%;
+      right: 5%;
+      font-size: 40px !important;
+    }
+  
+    .searchInput {
+      margin: 15px 0 !important;
+    }
+  
+    .square-flip {
+      height: 200px !important;
+      width: 85% !important;
+    }
+  
+    .forcastDay {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+  
+    .forcastIcon {
+      width: 50px;
+    }
+  
+    .forcastText {
+      font-size: 22px;
+    }
+  
+    .forcastTemp {
+      font-size: 25px;
+    }
+    .forcastTempMax {
+      font-size: 25px !important;
+    }
+  
+    .forcastTempMin {
+      font-size: 15px !important;
+    }
+  
+    .forcastMois {
+      font-size: 18px !important;
+    }
+  
+    .forcastWind {
+      font-size: 18px !important;
+    }
+  
+    .forcastRain {
+      font-size: 18px !important;
+    }
+  
+    .forcastUv {
+      font-size: 18px !important;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width:767px) {
+    #main
+    {
+      padding-top: 0!important;
+    }
+    .temperature {
+      font-size: 40px;
+    }
+  
+    .padding-0 {
+      padding: 10px !important;
+    }
+  
+    .square-flip {
+      width: 100% !important;
+    }
+  
+    .square,
+    .square2 {
+      width: 100% !important;
+    }
+  
+    .weather-details-caption p {
+      font-size: 18px;
+    }
+  
+    .weather-details-caption h2 {
+      font-size: 25px;
+    }
+  
+    .weather-details-caption h2 span {
+      font-size: 20px;
+    }
+  
+    .general-weather {
+      padding-left: 30px;
+    }
+  
+    .weatherIcon {
+      width: 100px !important;
+    }
+  
+    #time {
+      transition: all 1s;
+      -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -ms-transition: all 1s;
+      -o-transition: all 1s;
+      position: absolute !important;
+      top: 10%;
+      right: 5%;
+      font-size: 45px !important;
+    }
+  
+    .searchInput {
+      margin: 15px 0 !important;
+      width: 75% !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width:991px) {
+    #time {
+      font-size: 40px !important;
+    }
+  
+    .weather-details-caption {
+      padding-left: 5px;
+    }
+  
+    .weather-details-caption p {
+      font-size: 14px;
+    }
+  
+    .weather-details-caption h2 {
+      font-size: 25px;
+    }
+  
+    .weather-details-caption h2 span {
+      font-size: 20px;
+    }
+  
+    .temperature {
+      font-size: 60px !important;
+    }
+  
+    .square-flip {
+      height: 200px !important;
+      width: 90% !important;
+    }
+  
+    .forcastDay {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+  
+    .forcastIcon {
+      width: 50px;
+    }
+  
+    .forcastText {
+      font-size: 22px;
+    }
+  
+    .forcastTemp {
+      font-size: 25px;
+    }
+  
+    .forcastTempMax {
+      font-size: 20px !important;
+    }
+  
+    .forcastTempMin {
+      font-size: 15px !important;
+    }
+  
+    .forcastMois {
+      font-size: 15px !important;
+    }
+  
+    .forcastWind {
+      font-size: 15px !important;
+    }
+  
+    .forcastRain {
+      font-size: 15px !important;
+    }
+  
+    .forcastUv {
+      font-size: 15px !important;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width:1199px) {
+    .weatherText {
+      font-size: 30px;
+    }
+  
+    .temperature {
+      font-size: 45px !important;
+    }
+  
+    .weatherLocation {
+      font-size: 16px;
+    }
+  
+    .square-flip {
+      width: 100% !important;
+    }
+  
+    .square,
+    .square2 {
+      width: 100% !important;
+    }
+  
+    .weather-details-caption p {
+      font-size: 15px;
+    }
+  
+    .weather-details-caption h2 {
+      font-size: 20px;
+    }
+  
+    .weather-details-caption h2 span {
+      font-size: 18px;
+    }
+  
+    .square-flip {
+      height: 250px !important;
+      width: 85% !important;
+    }
+  
+    .forcastDay {
+      font-size: 28px;
+      font-weight: bolder;
+    }
+  
+    .forcastIcon {
+      width: 50px;
+    }
+  
+    .forcastText {
+      font-size: 22px;
+    }
+  
+    .forcastTemp {
+      font-size: 25px;
+    }
+  
+    .forcastTempMax {
+      font-size: 25px !important;
+    }
+  
+    .forcastTempMin {
+      font-size: 15px !important;
+    }
+  
+    .forcastMois {
+      font-size: 18px !important;
+    }
+  
+    .forcastWind {
+      font-size: 18px !important;
+    }
+  
+    .forcastRain {
+      font-size: 18px !important;
+    }
+  
+    .forcastUv {
+      font-size: 18px !important;
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width:1399px) {
+    .square-flip {
+      width: 90% !important;
+    }
+  
+    .square,
+    .square2 {
+      width: 90% !important;
+    }
+  
+    .weather-details-caption p {
+      font-size: 18px;
+    }
+  
+    .weather-details-caption h2 {
+      font-size: 25px;
+    }
+  
+    .weather-details-caption h2 span {
+      font-size: 20px;
+    }
+  
+    .square-flip {
+      height: 200px !important;
+      width: 83% !important;
+    }
+  
+    .forcastDay {
+      font-size: 28px;
+      font-weight: bolder;
+    }
+  
+    .forcastIcon {
+      width: 50px;
+    }
+  
+    .forcastText {
+      font-size: 22px;
+    }
+  
+    .forcastTemp {
+      font-size: 25px;
+    }
+  
+    .forcastTempMax {
+      font-size: 25px !important;
+    }
+  
+    .forcastTempMin {
+      font-size: 15px !important;
+    }
+  
+    .forcastMois {
+      font-size: 18px !important;
+    }
+  
+    .forcastWind {
+      font-size: 18px !important;
+    }
+  
+    .forcastRain {
+      font-size: 18px !important;
+    }
+  
+    .forcastUv {
+      font-size: 18px !important;
+    }
+  }
+  
+  @media only screen and (min-width: 1400px) {
+    .square-flip {
+      height: 250px !important;
+      width: 80% !important;
+    }
+  
+    .forcastDay {
+      font-size: 28px;
+      font-weight: bolder;
+    }
+  
+    .forcastIcon {
+      width: 50px;
+    }
+  
+    .forcastText {
+      font-size: 22px;
+    }
+  
+    .forcastTemp {
+      font-size: 25px;
+    }
+  
+    .forcastTempMax {
+      font-size: 25px !important;
+    }
+  
+    .forcastTempMin {
+      font-size: 15px !important;
+    }
+  
+    .forcastMois {
+      font-size: 18px !important;
+    }
+  
+    .forcastWind {
+      font-size: 18px !important;
+    }
+  
+    .forcastRain {
+      font-size: 18px !important;
+    }
+  
+    .forcastUv {
+      font-size: 18px !important;
+    }
+  }
